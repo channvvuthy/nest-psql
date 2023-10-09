@@ -14,4 +14,6 @@ export default {
   username: DB_USER,
   password: DB_PASSWORD,
   database: DB_DATABASE,
+  autoLoadEntities: true,
+  synchronize: true,
 } as TypeOrmModuleOptions;
